@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Andri">Andri Lesmana Hermawan</h1>
+
+          <p class="title">Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:andrilesmana2293@gmail.com" class="contact-link">andrilesmana2293@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">WhatsApp</p>
+
+              <a href="https://wa.me/081210502413" class="contact-link">+6281210502413</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-11-18">November 18 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Cibaliung, Pandeglang, Banten</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="mailto:andrilesmana2293@email.com" class="social-link">
+                <ion-icon name="mail"></ion-icon>
+            </a>
+        </li>        
+
+          <li class="social-item">
+            <a href="https://twitter.com/andr1Lesmana" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/andrilesmanahermawan/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+        </li>
+        
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a student at Darussalam Gontor University majoring in Informatics Engineering.
+          </p>
+
+          <p>
+            I am interested and fond of learning new things especially in the fields of Computer Science, 
+            Programming, Software Developer and Electrical Systems to develop self-skills 
+            and generate interesting ideas. Have a simple, flexible, disciplined and organized personality. 
+            And trained in cultivating loyalty
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+<!-- <img width="50" height="50" src="https://img.icons8.com/undefined/50/000000/undefined.png" alt="undefined"/> -->
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/new_images/ex.svg" alt="kiwwww" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Collection and Preparation</h4>
+
+                <p class="service-item-text">
+                  Before data analysis can be performed, it is necessary to collect, clean, 
+                  and unify data from multiple sources. Identify and resolve issues such as missing 
+                  or inaccurate data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/new_images/ex.svg" alt="" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Statistical Analysis and Modeling</h4>
+
+                <p class="service-item-text">
+                  Statistics and modeling techniques to identify Patterns, Trends, and Insights in data. 
+                  It can involve Regression Analysis, Clustering, Classification, and more.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/new_images/ex.svg" alt="" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Algorithm Development and Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Develop and apply Machine Learning algorithms to build predictive and analytical models 
+                  that can help make decisions. As well as designing, training, 
+                  and testing these models using existing data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/new_images/ex.svg" alt="camera" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+
+                <p class="service-item-text">
+                  Create clear and informative data visualizations. Data scientists use a variety of tools 
+                  to create graphs, plots, and interactive visualizations to help explain their findings to stakeholders.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials -> Motto and Motivation
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Motto and Motivation</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/new_images/motto_lamp.svg" alt="Dale Carnegie" width="40" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>-Dale Carnegie</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "People who managed to take advantage of the mistakes that he did, 
+                    and will try again to perform in a different way." 
+                    (Orang yang berhasil akan mengambil manfaat dari kesalahan-kesalahan yang ia lakukan, 
+                    dan akan mencoba kembali untuk melakukan dalam suatu cara yang berbeda.)
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/new_images/motto_lamp.svg" alt="Hellen Keller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>-Hellen Keller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Behold, the most beautiful thing in the world sometimes can not be seen in the view 
+                    or palpable to the touch, they can only be felt with the heart." 
+                    (Ketahuilah hal-hal terindah di dunia ini terkadang tak bisa terlihat dalam pandangan 
+                    atau teraba dengan sentuhan, mereka hanya dapat terasakan dengan hati.)
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Here are some of my work</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.kaggle.com/andrilesmana">
+                <img src="assets/images/new_images/icons8-kaggle-128.png" alt="client logo" width="40">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/andrimahasantri">
+                <img src="assets/images/new_images/icons8-github-128.png" alt="client logo" width="40">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.tensorflow.org/?hl=id">
+                <img src="assets/images/new_images/icons8-tensorflow-128.png" alt="client logo" width="40">
+              </a>
+            </li>
+
+             <li class="clients-item">
+              <a href="https://keras.io/">
+                <img src="assets/images/new_images/keras.256x256.png" alt="client logo" width="40">
+              </a>
+            </li>
+
+          <!--  <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Darussalam Gontor</h4>
+
+              <!-- <span>2019 — 2023</span>
+              <span>3.07</span> -->
+
+              <div class="sejajar">
+                <span>2019 — 2023</span>
+                <span>GPA : 3.07</span>
+              </div>
+
+              <!-- <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p> -->
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+              <span>2006 — 2007</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li> -->
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+
+
+
+        <!-- Strart Experience -->
+        <!-- Start Experience -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+              <!-- Experience -->
+            <h3 class="h3">Project Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Development</h4>
+
+              <!-- <span>2020 — 2023</span> -->
+              <div class="sejajar">
+                <span>Kaggle Research</span>
+                <span>2020 — 2023</span>
+              </div>
+
+              <p class="timeline-text">
+                Develop foliar disease classification using lightweight convolutional neural network.
+              </p>
+              <p class="timeline-text">
+                Comparing Undersampling and Oversampling techniques on classification.
+              </p>
+              <p class="timeline-text">
+                Data analysis of Indonesia's Treding Youtube Video Statistics.
+              </p>
+              <p class="timeline-text">
+                Researching Innovation and Development of classification products in Computer Vision.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chief of Staff of Electrical Campus</h4>
+
+              <!-- <span>2013 — 2015 </span> -->
+              <div class="sejajar">
+                <span>Campus Electricity</span>
+                <span>2020 — 2022</span>
+              </div>
+
+              <p class="timeline-text">
+                Responsible for electrical facility problems, Controlling electricity on campus 
+                and Cooperating with PLN ponorogo branch.
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+            <!-- Pengalaman kepanitiaan -->
+
+
+          </ol>
+
+        </section>
+
+
+
+
+
+
+        <!-- start pk -->
+        <!-- start pk -->
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+            <!-- Pengalaman Kepanitiaan -->
+          <h3 class="h3">Committee Experience</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Creative Team Executive Committee</h4>
+
+            <!-- <span>2015 — Present</span> -->
+            <div class="sejajar">
+              <span>Alhambra Performing Arts</span>
+              <span>2019 — 2022</span>
+            </div>
+
+            <p class="timeline-text">
+              Coordinating with members in planning activities.
+            </p>
+            <p class="timeline-text">
+              Collaborate with Design Division for Background creation.
+            </p>
+            <p class="timeline-text">
+              Analyze the property needs of activities and control the running of the event.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Creative Team Executive Committee</h4>
+
+            <!-- <span>2013 — 2015</span> -->
+            <div class="sejajar">
+              <span>Annual Apple Introduction Week Khutbatul Ars'y</span>
+              <span>2019 — 2022</span>
+            </div>
+
+            <p class="timeline-text">
+              Making Apple Mascot of the Year and Creating and fulfilling property needs of Apple Annual event.
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+      <!-- End Pengalaman kepanitiaan -->
+      <!-- End Pengalaman kepanitiaan -->
+
+
+
+
+
+      <!-- Start Pelatihan dan Seminar -->
+      <!-- StartPelatihan dan Seminar -->
+
+    <section class="timeline">
+
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="book-outline"></ion-icon>
+        </div>
+          
+        <h3 class="h3">Training and Seminars</h3>
+      </div>
+
+      <ol class="timeline-list">
+
+        <li class="timeline-item">
+
+          <h4 class="h4 timeline-item-title">“FAST (Future Academy Skill Transformation)” – Indosat Ooredoo Hutchison</h4>
+
+          <span>2022</span>
+
+          <!-- <p class="timeline-text">
+            Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+            molestias
+            exceptur.
+          </p> -->
+
+        </li>
+
+        <li class="timeline-item">
+
+          <h4 class="h4 timeline-item-title">Complete Data Science Course – Udemy Digital Course</h4>
+
+          <span>2022</span>
+
+          <!-- <p class="timeline-text">
+            Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+            quas molestias
+            exceptur.
+          </p> -->
+
+        </li>
+
+      </ol>
+
+    </section>
+    <!-- End Pelatihan dan seminar -->
+    <!-- End Pelatihan dan seminar -->
+
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft Office</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySql</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Bahasa Inggris (Active)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Image Classification</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Centiment Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Product Analysis</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Image Classification</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Centiment Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Product Analysis</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+              <!-- web development (finance) -->
+            <li class="project-item  active" data-filter-item data-category="product analysis">
+              <a href="https://www.kaggle.com/code/andrilesmana/ecommerce-eda-analysis/notebook">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/new_images/project_porto.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ecommerce Predictive Marketing 2023</h3>
+
+                <p class="project-category">Product Analysis</p>
+
+              </a>
+            </li>
+            <!-- web development (end finance) -->
+
+
+            <!-- web development (orizon) -->
+            <li class="project-item  active" data-filter-item data-category="product analysis">
+              <a href="https://www.kaggle.com/code/andrilesmana/datascience-salary-2023">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/new_images/1.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Science Salaries 2023</h3>
+
+                <p class="project-category">Product Analysis</p>
+
+              </a>
+            </li>
+            <!-- web development (end orizon) -->
+
+
+
+            <!-- web design (fundo) -->
+            <li class="project-item  active" data-filter-item data-category="image classification">
+              <a href="https://www.kaggle.com/code/andrilesmana/oversampling-and-undersampling">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/new_images/4.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Oversampling and Undersampling Image Dataset</h3>
+
+                <p class="project-category">Image Classification</p>
+
+              </a>
+            </li>
+            <!-- web design (end fundo) -->
+
+
+            <!-- application (brawlhalla) -->
+            <li class="project-item  active" data-filter-item data-category="centiment analysis">
+              <a href="https://www.kaggle.com/code/andrilesmana/threads-app-nlp">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/new_images/6.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Threeds App NLP</h3>
+
+                <p class="project-category">Centiment Analysis</p>
+
+              </a>
+            </li>
+            <!-- application (end brawlhalla) -->
+
+
+
+            <!-- web design (dsm) -->
+            <li class="project-item  active" data-filter-item data-category="image classification">
+              <a href="https://www.kaggle.com/code/andrilesmana/image-processing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/new_images/5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Image Processing</h3>
+
+                <p class="project-category">Image Classification</p>
+
+              </a>
+            </li>
+            <!-- web design (end sdm) -->
+
+
+
+            <!-- web design (metapark) -->
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li> -->
+            <!-- web design (end metapark) -->
+
+
+
+              <!-- web development (summary) -->
+            <li class="project-item  active" data-filter-item data-category="product analysis">
+              <a href="https://www.kaggle.com/code/andrilesmana/pepesi-product-eda">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/new_images/2.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pepsi Product EDA</h3>
+
+                <p class="project-category">Product Analysis</p>
+
+              </a>
+            </li>
+            <!-- web development (end summary) -->
+
+
+
+            <!-- application (task manager) -->
+            <li class="project-item  active" data-filter-item data-category="centiment analysis">
+              <a href="https://www.kaggle.com/code/andrilesmana/sentiment-customer-lstm">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/new_images/7.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Centiment Customer LSTM</h3>
+
+                <p class="project-category">Centiment Analysis</p>
+
+              </a>
+            </li>
+            <!-- application (end task manager) -->
+
+
+
+            <!-- web development (arrial) -->
+            <li class="project-item  active" data-filter-item data-category="product analysis">
+              <a href="https://www.kaggle.com/code/andrilesmana/stock-exchange-2023">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/new_images/p3.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stock Exchange Data 2023</h3>
+
+                <p class="project-category">Product Analysis</p>
+
+              </a>
+            </li>
+            <!-- web development (end arrial) -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/new_images/My Boo.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">;;;;;</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Av7</h3>
+
+                  <p class="blog-text">
+                    A little peace of heaven.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/new_images/My Boo.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">;;;;;</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Av7</h3>
+
+                  <p class="blog-text">
+                    A little peace of heaven.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/new_images/My Boo.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">;;;;;</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Av7</h3>
+
+                  <p class="blog-text">
+                    A little peace of heaven.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/new_images/My Boo.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">;;;;;</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Av7</h3>
+
+                  <p class="blog-text">
+                    A little peace of heaven.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/new_images/My Boo.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">;;;;;</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Av7</h3>
+
+                  <p class="blog-text">
+                    A little peace of heaven
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/new_images/My Boo.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">;;;;;</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Av7</h3>
+
+                  <p class="blog-text">
+                    A little peace of heaven.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+            <!-- <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/new_images/My Boo.png" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.371309901416!2d105.78475267331783!3d-6.724467165744244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42530dc16ef14f%3A0xd524359a1ddd5495!2sMesjid%20Al%20Ikhlas!5e0!3m2!1sid!2sid!4v1693196974559!5m2!1sid!2sid"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formsubmit.co/andrilesmana2293@gmail.com" class="form" data-form method="POST">
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
